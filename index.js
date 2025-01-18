@@ -10,7 +10,7 @@ require('dotenv').config();
 const app = express();
 
 const corsOptions = {
-  origin: '*', // Allow all origins
+  origin: 'https://stem-project-iota.vercel.app', // Allow all origins
   methods: 'GET,HEAD,PUT,PATCH,POST,DELETE', // Allow these HTTP methods
   allowedHeaders: 'Content-Type,Authorization', // Allow these headers
 };
